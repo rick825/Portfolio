@@ -182,6 +182,10 @@
         margin-top: 1rem;
     }
 
+    .main-bot .line2{
+        display: none;
+    }
+
     .main-bot .navul{
         width: 100%;
         left: -25%;

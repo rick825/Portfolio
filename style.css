@@ -1,0 +1,359 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgb(242, 242, 220);
+    font-family: 'Open Sans';
+}
+
+/* nav section */
+#nav{
+    position: relative;
+}
+
+.nav{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+}
+
+.nav .navlogo{
+    font-size: 1.6rem;
+}
+
+.nav  .navul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.nav  .navul img{
+    width: 20px;
+    margin-right: 0.5rem;
+}
+
+.nav  .navul .navitem{
+    margin-left: 3rem;
+}
+
+.nav  .navul .navitem a{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* end nav section */
+
+/* main section */
+#main{
+    position: relative;
+}
+
+.main{
+    width: 100%;
+    /* height: 42rem; */
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+
+.main .maincont{
+    width: 50%;
+    height:42rem;
+    /* border: 2px solid black;  */
+    /* border-bottom: 2px solid black; */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    /* text-align: left; */
+    font-family: 'Open Sans';
+    overflow: hidden;
+}
+
+/* main left */
+.main .mainleft .mainleftcont{
+    position: relative;
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-right: -35rem;
+    padding: 0.5rem;
+}
+
+.main .mainleft .head{
+    width: 100%;
+    font-size: 3rem;
+    letter-spacing: 2.5px;
+    display: flex;
+    margin-top:0rem;
+}
+
+.main .mainleft .head span{
+  color: rgb(131, 7, 118);
+}
+
+.main .mainleft .para{
+    width:100%;
+    margin-top: 1rem;
+    letter-spacing: 0.5px;
+    font-size: 1.3rem;
+    /* border: 2px solid black; */
+}
+
+.main .mainleft .para p{
+    margin-top: 0.6rem;
+}
+
+.main .mainleft .button{
+    display: flex;
+    margin-top: 2.5rem;
+    /* margin-left: -13rem; */
+}
+
+
+.main .mainleft .button a{
+    /* margin-left: 1rem; */
+    padding: 0.9rem 1.4rem;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+    background-color: rgb(131, 7, 118);
+}
+
+.main .mainleft .button a:hover{
+ border-color: rgb(131, 7, 118);
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.main .mainleft .button a:nth-child(2){
+    margin-left: 1.65rem;
+    background-color: transparent;
+    border:1px solid rgb(131, 7, 118);
+    color: black;
+}
+
+.main .mainleft .button img{
+    width: 20px;
+    margin-left: 0.5rem;
+}
+
+
+/* end main left */
+/* main right */
+.mainright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainimg{
+    position: relative;
+  margin-top:-12rem;
+  margin-left: -38rem;
+}
+
+.mainimg:before{
+    content:" ";
+    width: 80%;
+    height: 70%;
+    background-color: #310e68;
+background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    position: absolute;
+    top: 32%;
+    left:10%;
+    right:0;
+    bottom:0;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+.mainimg img{
+    width: 102%;
+    filter: grayscale(0.4);
+    
+}
+
+
+/* end main right */
+/* end main section */
+
+/* main bot section */
+#main-bot{
+    width: 100%;
+    position: relative;
+}
+
+.main-bot{
+    width: 100%;
+    display: flex;
+    position: relative;
+    /* background-color: rgba(229, 205, 236, 0.177); */
+}
+
+.main-bot .main-bot-cont{
+    /* border: 2px solid black; */
+    padding: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 6rem;
+}
+
+/* main left division */
+
+.main-bot .main-bot-left{
+    width: 18%;
+}
+
+/* main nav division */
+.main-bot .mainnav{
+    /* position: relative; */
+    height: 15rem;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-bot .mainnav .line{
+    width: 50%;
+    /* position: absolute; */
+    position: relative;
+    bottom:150%;
+    left:20%;
+    transform: rotate(90deg);
+    color: black;
+    border-top: 0.5px solid rgb(73, 2, 64);
+}
+
+.main-bot .navul{
+    list-style: none;
+    position: relative;
+    bottom:-5%;
+    left:39%
+}
+
+.main-bot  .navsocial img{
+    width: 21px;
+    margin-top: 2rem;
+}
+
+/* end main nav division */
+/* end main left division */
+/* main right division */
+.main-bot .main-bot-right{
+    width: 82%;
+}
+
+.main-bot .main-bot-right .mainbotdiv{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd{
+    width: 23rem;
+    height: 18rem;
+    /* border: 1px solid rgb(131, 7, 118); */
+    margin-left: 10rem;
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd:nth-child(1){
+    margin-left: 3rem;
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd .mbd-head{
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd .mbd-head h2{
+    display: flex;
+    align-items: center;
+}
+
+
+.main-bot .main-bot-right .mainbotdiv .mbd .mbd-icon{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    margin-top: 1.1rem;
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd .mbd-icon img{
+    width: 35px;
+    margin-left: 0.5rem;
+    
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd .mbd-icon img:nth-child(1){
+    margin-left: -0.45rem;
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd .mbd-icon img:nth-child(3){
+    width: 30px;
+}
+
+
+.main-bot .main-bot-right .mainbotdiv .mbd .mbd-para{
+    font-size: 1.2rem;
+    margin-top:0.8rem;
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd  .mbd-button{
+    margin-top: 0.8rem;
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd a{
+    width: 45%;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    /* padding: 0.5rem; */
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd a span{
+    border-bottom: 0.5px solid rgb(131, 7, 118);
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd a img{
+    width: 20px;
+    margin-left: 0.5rem;
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd .mbd-list{
+    margin-top: 1.7rem;
+    font-size: 1.2rem;
+}
+
+.main-bot .main-bot-right .mainbotdiv .mbd .mbd-list li{
+    margin-top: 1rem;
+}
+
+
+/* end main right division */
+/* end main bot section */

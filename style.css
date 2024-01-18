@@ -257,15 +257,23 @@ background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
     justify-content: center;
 }
 
-.main-bot .mainnav .line{
+.main-bot  .line{
     width: 50%;
     /* position: absolute; */
     position: relative;
-    bottom:150%;
+    bottom:180%;
     left:20%;
     transform: rotate(90deg);
     color: black;
     border-top: 0.5px solid rgb(73, 2, 64);
+}
+
+.main-bot  .line2{
+    position: absolute;
+    width: 10%;
+    bottom: 20%;
+    transform: rotate(0deg);
+    left: 75%;
 }
 
 .main-bot .navul{

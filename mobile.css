@@ -1,0 +1,224 @@
+@media only screen and (max-width: 600px){
+   
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .ham{
+        display: block;
+    }
+
+    .ham{
+        position: fixed;
+        top:2%;
+        right: 3%;
+        width: 4rem;
+        height: 6rem;
+        z-index: 10000000;
+
+    }
+
+    .ham .line{
+        margin-top: 0.8rem;
+       border: 2px solid black;
+    }
+
+    .nav{
+        position: fixed;
+        top:0;
+        left:0;
+        background-color: rgb(255, 255, 255);
+      justify-content: center;
+      z-index: 1000000;
+      padding: 1.2rem 3rem;
+    }
+
+    .nav .navlogo{
+      letter-spacing: 1px;
+       font-size: 2rem;
+    }
+
+    .mainnavlist{
+        width: 70%;
+        height: 100rem;
+        position: fixed;
+        top:7%;
+        right:0;
+        margin-left: 0;
+        flex-direction: column;
+        justify-content:flex-start;
+        background-color: rgb(255, 255, 255);
+        z-index: 100000;
+        transform: translateX(50rem);
+        transition: 0.4s ease;
+    }
+
+
+    .nav .mainnavlist .navright{
+        margin-left: 0rem;
+    }
+
+
+    .navshow{
+        transform: translateX(0);
+    }
+
+    .nav .navleft{
+        margin-top: 2rem;
+    }
+
+
+
+    .nav .navul{
+        text-align: center;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+
+    .nav  .navul img{
+        width: 30px;
+        margin-right: 0.5rem;
+    }
+    
+    .nav .navul .navitem{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 6rem;
+    }
+
+    
+    .nav  .navul img{
+        margin-right: 4rem;
+    }
+
+
+    /* main section */
+    .main{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .main .maincont{
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .main .mainleft{
+        height: 32rem;
+    }
+
+    .main .mainleft .mainleftcont{
+        width: 100%;
+        margin-top: 1%;
+        margin-right: 0;
+        padding: 2rem;
+        justify-content: flex-start;
+        /* margin-top: 10rem; */
+    }
+
+    .main .mainleft .head{
+        font-size: 3rem;
+        line-height: 5.7rem;
+    }
+
+    .main .mainleft .para{
+        margin-top:0.5rem;
+        font-weight: 600;
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.712);
+    }
+
+    .main .mainleft .button{
+        margin-top: 2rem;
+    }
+
+
+    
+    .main .mainright{
+        /* width: 100%; */
+        height: 36rem;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+
+    .mainimg{
+        /* width: 100%; */
+        margin-right: 0rem;
+        margin-top: -20%;
+        margin-left: 0;
+    }
+
+    .main-bot{
+        flex-direction: column-reverse;
+    }
+
+    .main-bot .main-bot-cont{
+        margin-top: 2rem;
+    }
+
+    .main-bot .main-bot-right .mainbotdiv{
+        flex-direction: column;
+    }
+
+    .main-bot .main-bot-left{
+        width: 100%;
+    }
+
+    .main-bot .mainnav{
+        height: 6rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        /* margin-left: 10rem; */
+    }
+    
+
+    .main-bot .mainnav .line{
+        width: 60%;
+        bottom: 0%;
+        left:-5%;
+        transform: rotate(0deg);
+        margin-top: 1rem;
+    }
+
+    .main-bot .navul{
+        width: 100%;
+        left: -25%;
+        bottom: 0%;
+        display: flex;
+    }
+
+    .main-bot .navul li{
+        margin-left: 1rem;
+    }
+
+    .main-bot  .navsocial img{
+        margin-top: 0;
+    }
+
+    .main-bot .main-bot-right{
+        width: 100%;
+    }
+
+    .main-bot .main-bot-right .mainbotdiv{
+        padding: 1rem;
+        justify-content: center;
+    }
+
+    .main-bot .main-bot-right .mainbotdiv .mbd{
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .main-bot .main-bot-right .mainbotdiv .mbd:nth-child(1){
+        margin-left: 0;
+    }
+
+    .main-bot .main-bot-right .mainbotdiv .mbd .mbd-list{
+        margin-left: 1rem;
+    }
+
+   /* end main section */
+}
+    

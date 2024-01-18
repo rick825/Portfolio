@@ -19,8 +19,12 @@ body{
 }
 
 /* nav section */
+.ham{
+ display: none;
+}
+
 #nav{
-    position: relative;
+    /* position: relative; */
 }
 
 .nav{
@@ -30,6 +34,20 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 3rem 8rem;
+    padding-right: 0rem;
+}
+
+.mainnavlist{
+    width: 75%;
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+.nav .mainnavlist .navright{
+    margin-left: 20rem;
 }
 
 .nav .navlogo{
